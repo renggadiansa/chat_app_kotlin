@@ -1,5 +1,4 @@
-package com.example.answerandquestion.utils
-
+package com.example.waclone.utils
 import android.content.Context
 import android.widget.Toast
 import androidx.fragment.app.Fragment

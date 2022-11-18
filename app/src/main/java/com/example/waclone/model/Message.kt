@@ -1,4 +1,4 @@
-package com.example.answerandquestion.model
+package com.example.waclone
 
 class Message {
 

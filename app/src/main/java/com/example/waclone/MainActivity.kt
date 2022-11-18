@@ -2,14 +2,13 @@ package com.example.waclone
 
 import android.annotation.SuppressLint
 import android.app.ProgressDialog
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.answerandquestion.adapter.UserAdapter
-import com.example.answerandquestion.model.User
-import com.example.answerandquestion.utils.toast
+import com.example.waclone.adapter.UserAdapter
 import com.example.waclone.databinding.ActivityMainBinding
+import com.example.waclone.utils.toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

@@ -1,4 +1,4 @@
-package com.example.answerandquestion.adapter
+package com.example.waclone.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.answerandquestion.model.Message
+import com.example.waclone.Message
 import com.example.waclone.R
 import com.example.waclone.databinding.DeleteLayoutBinding
 import com.example.waclone.databinding.ReceiveMsgBinding
