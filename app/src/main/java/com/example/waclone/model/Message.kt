@@ -1,4 +1,4 @@
-package com.example.waclone
+package com.example.waclone.model
 
 class Message {
 

@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.waclone.ChatActivity
 import com.example.waclone.R
-import com.example.waclone.User
 import com.example.waclone.databinding.ItemProfileBinding
+import com.example.waclone.model.User
 
 
 class UserAdapter(var context: Context, var userList: ArrayList<User>) :

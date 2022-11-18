@@ -1,5 +1,6 @@
 package com.example.waclone
 
+import android.annotation.SuppressLint
 import android.app.ProgressDialog
 import android.content.Intent
 import android.os.Bundle
@@ -12,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.example.waclone.adapter.MessageAdapter
 import com.example.waclone.databinding.ActivityChatBinding
+import com.example.waclone.model.Message
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -86,6 +88,7 @@ class ChatActivity : AppCompatActivity() {
             .child(senderRoom!!)
             .child("message")
             .addValueEventListener(object : ValueEventListener {
+                @SuppressLint("NotifyDataSetChanged")
                 override fun onDataChange(snapshot: DataSnapshot) {
                     messages!!.clear()
                     for (snapshot in snapshot.children) {
